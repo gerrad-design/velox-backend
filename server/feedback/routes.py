@@ -55,6 +55,6 @@ def submit_feedback():
     db.session.add(new_feedback)
     db.session.commit()
 
-    return jsonify({"message": "Feedback submitted successfully ✅"}), 201
+    return jsonify({"message": "Feedback submitted successfully "}), 201
 
 
