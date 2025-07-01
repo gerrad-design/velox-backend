@@ -43,6 +43,7 @@ jest-test-results.json
 *.bak
 *.tmp
 
+
 __pycache__/
 *.py[cod]
 *.pyo
