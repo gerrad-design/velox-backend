@@ -42,3 +42,27 @@ jest-test-results.json
 # === Misc ===
 *.bak
 *.tmp
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+venv/
+.env
+*.env
+
+.vscode/
+
+.DS_Store
+Thumbs.db
+
+instance/
+*.log
+
+Pipfile.lock
+poetry.lock
+
+.pytest_cache/
+
+*.sqlite3
+*.db
